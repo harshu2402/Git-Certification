@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 This is Feature 2
 This is First Commit
 =======
 This is feature 1
+=======
+This is feature 2
+>>>>>>> 03bda80 (Second Commit)
 
 >>>>>>> 5f42609 (First Commit)
