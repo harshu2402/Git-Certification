@@ -1,0 +1,14 @@
+---
+- name: installing tools on master
+  hosts: localhost
+  become: true
+  tasks:
+    - name: master script
+      script: master.sh
+
+- name: installing tools on slaves
+  hosts: all
+  become: true
+  tasks:
+    - name: slave script
+      script: slave.sh
